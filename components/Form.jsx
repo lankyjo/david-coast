@@ -53,7 +53,7 @@ const Form = () => {
       const data = await res.json();
       
       if (res.ok) {
-        toast.success(data.message);
+        toast.success("Form submitted successfully!");
         setFormData({
           fullName: "",
           email: "",
@@ -63,7 +63,6 @@ const Form = () => {
         toast.error("Something went wrong!");
       }
       
-      toast.success("Form submitted successfully!");
 
       // Clear form
       setFormData({
