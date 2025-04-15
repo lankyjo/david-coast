@@ -79,7 +79,7 @@ const Navigation = () => {
         aria-label="open Navigation panel"
         onClick={openMenu}
         id="navBtn"
-        className="fixed right-0 hover:scale-105 transition-all cursor-pointer flex justify-between bottom-0 bg-[rgb(239_121_13)] w-40 h-12 p-2 text-white rounded-tl-lg"
+        className="fixed font-anton right-0 hover:scale-105 transition-all cursor-pointer flex justify-between bottom-0 bg-[rgb(239_121_13)] w-40 h-12 p-2 text-white rounded-tl-lg"
       >
         Highlights
     <BsArrowUpRight/>
