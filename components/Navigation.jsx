@@ -91,7 +91,7 @@ const Navigation = () => {
         aria-hidden="true"
         aria-label="Event Navigation Panel"
         id="navscreen"
-        className="hidden flex-col items-end gap-1 overflow-hidden z-50 h-screen w-screen bg-black/20 backdrop-blur-md fixed right-0 top-0"
+        className="hidden flex-col items-end gap-1 overflow-hidden z-50 h-dvh w-screen bg-black/20 backdrop-blur-md fixed right-0 top-0"
       >
         {[
           {
