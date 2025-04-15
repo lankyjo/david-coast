@@ -12,6 +12,7 @@
 @font-face {
     font-family: neue;
     src: url(/NeueMontreal-Regular.otf);
+    font-display: swap;
 }
  body{
     font-family: neue;
