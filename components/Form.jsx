@@ -76,7 +76,7 @@ const Form = () => {
 
   return (
     <>
-      <div className="flex w-full h-dvh justify-center items-center">
+      <div className="flex w-full h-full min-h-dvh justify-center items-center">
         <form
           id="form"
           onSubmit={handleSubmit}

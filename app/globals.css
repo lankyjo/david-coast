@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap'); */
 @import "tailwindcss";
 @theme{
     --breakpoint-xs: 30rem;
-    --font-anton: "Anton", sans-serif;
+    --font-anton: var(--anton);
 }
 
 .header > *{

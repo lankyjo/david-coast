@@ -25,7 +25,7 @@ export default function Home() {
   return (
     <div
       id="bg"
-      className="min-h-dvh bg-[url(/1.jpg)] sm:bg-[url(/1.webp)] bg-cover z-0 bg-center relative w-full before:absolute before:inset-0 before:bg-black/70"
+      className="min-h-dvh h-full bg-[url(/1.jpg)] sm:bg-[url(/1.webp)] bg-cover z-0 bg-center relative w-full before:absolute before:inset-0 before:bg-black/70"
     >
       <span id="blur" className="absolute inset-0 bg-black/20 backdrop-blur-md"></span>
       <main className="relative w-full text-white z-10 max-w-[1440px] px-3 mx-auto">
