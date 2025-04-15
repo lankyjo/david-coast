@@ -77,11 +77,11 @@ const Form = () => {
 
   return (
     <>
-      <div>
+      <div className="flex w-full h-dvh justify-center items-center">
         <form
           id="form"
           onSubmit={handleSubmit}
-          className="max-w-lg mt-18 lg:mt-35 mx-auto p-5 space-y-3 rounded-md border border-white/30"
+          className="max-w-lg w-full  mx-auto p-5 space-y-3 rounded-md border border-white/30"
         >
           <h2 className="font-anton text-center text-5xl uppercase">
             Sign up for the <br />
