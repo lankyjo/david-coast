@@ -95,7 +95,7 @@ const Navigation = () => {
       >
         {[
           {
-            eventName: "Ogatciket!",
+            eventName: "Ogaticket!",
             eventVenue: "New York",
             eventDate: "10th, April, 2025",
             image: "/next1.webp",
@@ -124,7 +124,7 @@ const Navigation = () => {
             role="button"
             tabIndex={0}
             aria-label={`View details for ${event.eventName} in ${event.eventVenue} on ${event.eventDate}`}
-            className="flex-[1] w-screen border p-2 sm:w-90 cursor-pointer rounded-xl flex items-end bg-cover bg-center transform translate-x-full"
+            className="flex-[1] w-screen border bg-black p-2 sm:w-90 cursor-pointer rounded-xl flex items-end bg-cover bg-center transform translate-x-full"
             style={{
               backgroundImage: `linear-gradient(to bottom, rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(${event.image})`
             }}
